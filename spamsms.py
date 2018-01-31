@@ -17,6 +17,7 @@ try:
 			time.sleep(10)
 except IOError:
 	print "exiting from program"
+	sys.exit()
 except KeyboardInterrupt:
 	print "exiting from program"
-	
+	sys.exit()
